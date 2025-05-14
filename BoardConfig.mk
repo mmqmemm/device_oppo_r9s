@@ -100,6 +100,8 @@ TARGET_HW_DISK_ENCRYPTION := true
 BOARD_USES_QCOM_HARDWARE := true
 TW_INCLUDE_CRYPTO := true
 
+# OrangeFox Recovery
+OF_FL_PATH1 := /proc/qcom_flash
 
 # exFAT FS Support
 TW_INCLUDE_FUSE_EXFAT := true
