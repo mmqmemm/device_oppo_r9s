@@ -17,5 +17,10 @@
 #
 export OF_FORCE_PREBUILT_KERNEL=1
 
+# 开启闪光灯功能
+export OF_FLASHLIGHT_ENABLE=1
+# 自定义闪光灯路径，修复闪光灯
+export OF_FL_PATH1=/proc/qcom_flash
+ 
 add_lunch_combo omni_R9s-userdebug
 add_lunch_combo omni_R9s-eng
